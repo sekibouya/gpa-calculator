@@ -1,5 +1,5 @@
 now=float(input("今のGPA>>>"))
-units=float(input("履修したGPA算入科目の総単位数>>>"))
+units=float(input("今までに履修したGPA算入科目の総単位数>>>"))
 numerator=now*units
 li=["S","A+","A","A-","B+","B","B-","C+","C","C-"]
 while True:
